@@ -184,54 +184,7 @@ $(document).ready(function(){
     
 
     
-    //微信朋友圈分享
-    var this_url=window.location.href;
-        $.get("https://testzhst.shuhaisc.com/saasowp/weChat/signature",
-        {       
-        url:this_url
-        },
-        function(data,status){			
-        
-        if(data!=null && data.success)
-        {			
-        var result=data.data;			
-                
-         wx.config({
-            debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
-            appId: result.appid, // 必填，公众号的唯一标识
-            timestamp: result.timestamp, // 必填，生成签名的时间戳
-            nonceStr: result.nonceStr, // 必填，生成签名的随机串
-            signature: result.signature,// 必填，签名
-            jsApiList: ['updateAppMessageShareData','updateTimelineShareData'] // 必填，需要使用的JS接口列表
-        });
-        
-        wx.ready(function () {   //需在用户可能点击分享按钮前就先调用
-            
-            wx.updateAppMessageShareData({ 
-                title: 'Hello, 2022 happy new year', // 分享标题
-                desc: '你好, 2022, 新年快乐！ 除夕倒计时, 一大波弹幕正在来袭！！', // 分享描述
-                imgUrl: 'https://www.shuhaisc.com/Clock/images/time.jpg', // 分享图标
-                success: function () {
-                    // alert("分享成功!");
-                }
-            });
-
-            wx.updateTimelineShareData({ 
-                title: 'Hello, 2022 happy new year', // 分享标题
-                imgUrl: 'https://www.shuhaisc.com/Clock/images/time.jpg', // 分享图标
-                success: function () {
-                    // alert("分享成功!");
-                }
-            });
-
-            // 移动端强制自动播放
-
-            $("#video")[0].play();
-            }); 
-        }
-            
-    });
-
+    
 
 
 
