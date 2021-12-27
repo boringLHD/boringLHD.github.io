@@ -1,2 +1,0 @@
-# fireworks
-echarts firework
