@@ -43,9 +43,12 @@ a{text-decoration: none;}
          text-align: center;
          background-size :cover;
         background-image:url(./images/chunjie4.jpg);}
+#img{ position:relative;
+         top:15px;
+      left:5px;}
 #img2{ position:relative;
-         top:80px;
-      left:50px;}
+         top:50px;
+      left:15px;}
       
       
 
