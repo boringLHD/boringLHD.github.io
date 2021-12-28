@@ -19,11 +19,11 @@ a{text-decoration: none;}
    background-size :cover;
    text-align: center;
  }
-audio{ position:fixed;    /*设置元素为固定定位*/
-    top:0px;          /*距离浏览器底部500px*/
-    left:0px;        /*距离浏览器左部0px*/
-    width:290px;
-    height:300px;}
+audio{ position:relative;
+	buttom:400;
+	right:500;
+}
+    
 #div2{
         height:125vh;
          width:100vw;
