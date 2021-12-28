@@ -1,13 +1,11 @@
-*{margin: 0;
- adding: 0;
-}
+
 html,body{
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	background-repeat:x;
 	position: relative;
 	overflow-x: auto;
        font-family: "华文行楷";
@@ -47,7 +45,8 @@ audio{ position:relative;
          font-size: 150px;
          text-align: center;
          background-size :cover;
-        background-image:url(./images/chunjie4.jpg);}
+        background-image:url(./images/chunjie4.jpg);
+  }
 #img{ position:relative;
        top:15px;
       left:5px;}
