@@ -8,6 +8,7 @@ html,body{
 	font: inherit;
 	vertical-align: baseline;
 	background-repeat:x;
+	background-repeat:y;
 	position: relative;
 	overflow-x: auto;
        font-family: "华文行楷";
