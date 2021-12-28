@@ -4,7 +4,7 @@
 html,body{
 	background-repeat: repeat-y;
 	position: relative;
-	overflow-x: hidden;
+	overflow-x: auto;
        font-family: "华文行楷";
   }
 a{text-decoration: none;}
