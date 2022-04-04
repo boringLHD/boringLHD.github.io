@@ -1,0 +1,131 @@
+html,body{margin-top:-10px;
+          padding: 0;
+         }
+/*清除浮动*/
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/*清除浮动结束*/
+
+/*通用样式*/
+input[type="text"]{ 
+    border: none;
+    outline: none;
+    outline-offset:none;
+   vertical-align: -5px;
+}
+.button{
+    border: none;
+    outline: none;
+    outline-offset: none;
+    background-color: #fff;}
+
+.left{float: left;}
+
+.right{float: right;}
+/*通用样式结束*/
+
+
+/*页头*/
+.header .top{
+    background-color: #EDF4EC;
+    height: 35px;
+    width: cover;}
+.header .top a{width: 102px;
+               height: 20px;
+               display: block;
+               background: url(../img/logo_db@2x.png) no-repeat;
+               background-size: 102px 20px;              
+               }
+.header .top a span{display: none;}
+/*页头结束*/
+
+/*页头搜素导航*/
+.header .container{margin-top: 36px;}
+.header .container .logo{
+    width: 73px;
+    height:24px ;
+    background: url(../img/doubanwang.png) no-repeat;
+    background-size:73px 24px ;
+    margin-left:92px ;}
+.header .container .search{
+        border: 1px solid #c3c3c3;
+        margin-left: 29px;
+        width: 272px;
+        height: 32px;
+        position: relative;
+    }
+.header .container .search button{
+    border: none;
+    outline: none;
+    outline-offset: none;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+/*导航*/
+.header .container .nav{width: 100%;}
+.header .container .nav a{
+    width:41px ;
+    height: 20px;
+    display: block;
+    background: url(../img/anony_nav_logo@2x.png);
+    background-size:462px 20px;
+    margin-left: 2px;
+    float: left;
+}
+.header .container .nav .reading{
+   margin-left:192px ;
+   background-position:0 20px;
+}
+.header .container .nav .movie{
+  
+   background-position:-60px 20px ;
+}
+.header .container .nav .music{
+   
+   background-position:-120px 20px ;
+}
+.header .container .nav .groud{
+    
+   background-position:-180px 20px ;
+}
+.header .container .nav .FM{
+
+   background-position:-240px 20px ;
+}
+.header .container .nav city{
+  
+   background-position:-300px 20px ;
+}
+.header .container .nav .thing{
+  
+   background-position:-360px 20px ;
+}
+.header .container .nav .doupin{
+   
+   background-position:-421px 20px ;
+}
+/*导航*结束/#edf4ed;
+/*页头搜素导航结束*/
+
+/*注册区*/
+.register{
+    background: url(../img/beijing.jpg) no-repeat;
+    background-color:#edf4ed;
+    height: 304px;
+    width:100%;
+    margin-top: 20px;
+    background-size:auto 304px;
+    position: relative;
+}
+.register .iframe{
+    position: absolute;
+    right: 100px;
+    overflow: hidden;
+}
+/*注册区*结束/
+

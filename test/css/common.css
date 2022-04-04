@@ -1,0 +1,25 @@
+input[type="text"]{ 
+    border: none;
+    outline: none;
+    outline-offset:none;
+   vertical-align: -5px;
+}
+.button{
+    border: none;
+    outline: none;
+    outline-offset: none;
+    background-color: #fff;}
+
+/*浮动*/
+.left{float: left;}
+.right{float: right;}
+/*浮动结束*/
+
+/*清除浮动*/
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/*清除浮动结束*/
+
