@@ -4,7 +4,7 @@ input[type="text"]{
     outline-offset:none;
    vertical-align: -5px;
 }
-.button{
+button{
     border: none;
     outline: none;
     outline-offset: none;
